@@ -8,7 +8,7 @@ Dataset contains two columns, "emotion" and "pixels". The "emotion" column conta
 
 This dataset was prepared by Pierre-Luc Carrier and Aaron Courville, as part of an ongoing research project.
 
-Dataset link: https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data
+[Dataset link](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data)
 
 ## Preprocessing
 

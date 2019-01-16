@@ -11,5 +11,21 @@ This dataset was prepared by Pierre-Luc Carrier and Aaron Courville, as part of 
 [Dataset link](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data)
 
 ## Preprocessing
+**1)** Pixel values from dataset are in text format, so total 48x48 pixel values appear as single string.
+These values are first splitted into single value making it array of 48x48 pixel values, then converted into float format.
+
+**2) Normalization:**
+There are differnet ways to normalize the pixel values,
+1) Dividing every valu by 255(i.e. dividing by maximum pixel value)
+2) Pre-channel Normalization : Where mean value is subtracted from every pixel value & then divided by standard deviation. 
 
 ## Model Building
+
+CNN is used for trained the model.
+
+Input: Pixel values of 48x48x1(h,w,ch)
+Convolutional Layer: Total three Convolutional layers, one MaxPool and two AveragePool layers
+Fully Connected Neural Network: Two layers with two dropout layers of 20%
+
+
+

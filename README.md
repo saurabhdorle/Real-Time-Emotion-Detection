@@ -21,10 +21,12 @@ There are differnet ways to normalize the pixel values,
 
 ## Model Building
 
-CNN is used for trained the model.
+CNN is used for training the model.
 
 Input: Pixel values of 48x48x1(h,w,ch)
+
 Convolutional Layer: Total three Convolutional layers, one MaxPool and two AveragePool layers
+
 Fully Connected Neural Network: Two layers with two dropout layers of 20%
 
 

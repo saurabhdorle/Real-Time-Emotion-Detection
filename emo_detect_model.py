@@ -95,12 +95,12 @@ model.add(MaxPooling2D(pool_size = (5, 5), strides = (2, 2)))
 model.add(Conv2D(64, (3, 3), activation = 'relu'))
 model.add(Conv2D(64, (3, 3), activation = 'relu'))
 model.add(AveragePooling2D(pool_size = (3, 3), strides = (2, 2)))
-'''
+
 # Third Convolution Layer
 model.add(Conv2D(128, (3, 3), activation = 'relu'))
 model.add(Conv2D(128, (3, 3), activation = 'relu'))
 model.add(AveragePooling2D(pool_size = (3, 3), strides = (2, 2)))
-'''
+
 # Flattening
 model.add(Flatten())
 

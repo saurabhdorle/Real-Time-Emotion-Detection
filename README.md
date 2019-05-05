@@ -16,7 +16,7 @@ These values are first splitted into single value making it array of 48x48 pixel
 
 **2) Normalization:**
 There are differnet ways to normalize the pixel values,
-1) Dividing every valu by 255(i.e. dividing by maximum pixel value)
+1) Dividing every value by 255(i.e. dividing by maximum pixel value)
 2) Pre-channel Normalization : Where mean value is subtracted from every pixel value & then divided by standard deviation. 
 
 ## Model Building
